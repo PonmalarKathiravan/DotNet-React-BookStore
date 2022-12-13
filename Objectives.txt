@@ -1,0 +1,135 @@
+Overview: 
+
+ E-Book is an online application to be built as a product that can be catering to various customers who require purchasing books. 
+
+
+
+Users of the System: 
+
+Admin 
+Customer 
+
+
+Functional Requirements: 
+
+Build an application that customers can access and purchase books online. 
+The application should have signup, login, profile, dashboard page, and product page. 
+This application should have a provision to maintain a database for customer information, order information and product portfolio. 
+Also, an integrated platform required for admin and customer. 
+Administration module to include options for adding / modifying / removing the existing product(s) and customer management. 
+Users can order only if the stock quantity is available. 
+
+
+Technology Stack 
+
+ 
+
+Front End 
+
+React 
+
+Google Material Design  
+
+Bootstrap / Bulma 
+
+
+
+Server Side 
+
+.Net Framework version 5.0
+
+.Net WebAPI
+
+
+
+Database 
+
+MsSql Server
+
+
+
+
+
+Platform Guidelines:
+
+
+
+To run the command use Terminal in the platform.
+
+
+
+React:
+
+In the new terminal window go to the project file 'cd reactapp'
+
+To create a component run 'npx create-react-app component_name'
+
+To install dependency run 'npm install'
+
+To start/run the application 'npm start'
+
+Click port 8081 button to view the output.
+
+
+
+.Net WebAPI:
+
+In the new terminal window go to the project file 'cd dotnetapp'
+
+To install dependency run 'dotnet add package '
+
+To connect database use entity framework 'dotnet dotnet-ef '
+
+To start/run the application 'dotnet run'
+
+Click port 8080 button to view the output.
+
+
+
+API Endpoint
+
+click port 8080 and use that URL as API Endpoint for React
+
+
+
+MySQL Setup:
+
+sqlcmd -U sa
+
+password: examlyMssql@123
+
+To create a database:
+
+create database database_name.
+
+Git Commands:
+
+To add the changes
+
+git add ./reactapp/
+
+git add ./dotnetapp/
+
+
+
+To commit the changes
+
+git commit -m "commit message"
+
+
+
+To create a new branch
+
+git branch -m branch_name
+
+
+
+To push the code in repo
+
+git push -u origin branch_name
+
+
+
+To Pull the previous code
+
+git pull origin branch_name
